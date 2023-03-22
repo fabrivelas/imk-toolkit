@@ -1,11 +1,24 @@
 # Changelog
 
 All notable changes to this project will be documented in this file.
-
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/). 
+This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+## [0.2.2] - 2022-12-19
+
+### Added
+
+- Constant module i.e. `from imktk import constants as cs`
+- Dataarray method for [flight tracks](/imktk/dataarray_methods/flight_track.py).
+
+### Update
+
+- Ubuntu version of base Dockerfile
+- Dependencies of `poetry`
+
+## [0.2.0] - 2022-08-04
 
 ### Added
 
@@ -14,6 +27,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Dataarray method for [vapour pressure over liquid water](/imktk/dataarray_methods/vapour_pres_liq.py).
 - Dataarray method for [vapour pressure over ice](/imktk/dataarray_methods/vapour_pres_ice.py).
 - Dataarray method for [climatology](/imktk/dataarray_methods/climatology.py).
+- Dataarray method for [adiabatic temperature](/imktk/dataarray_methods/ad_temp.py).
 - Tutorial submodule for [example data](/imktk/tutorial.py).
 
 ## [0.1.8] - 2022-03-14
